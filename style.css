@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-logo {
+    color: #F9FAF8;
+    font-size: 24px;;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header, footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
