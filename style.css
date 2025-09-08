@@ -61,7 +61,6 @@ nav {
     flex: 1;
 }
 
-
 .hero-image {
     width: 450px;
     height: 200px;
@@ -73,4 +72,32 @@ button {
     border-radius: 6%;
     padding: 4px 20px;
     border: none;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.section-two .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.section-two img {
+    width: 130px;
+    height: 130px;
+}
+
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
 }
