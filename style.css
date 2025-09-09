@@ -105,3 +105,24 @@ button {
     width: 150px;
     text-align-last: center;
 }
+
+.section-three .quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px 220px;
+}
+
+.section-three .signature {
+    font-weight: bold;
+    align-self: flex-end;
+}
