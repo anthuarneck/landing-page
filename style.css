@@ -80,24 +80,28 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .section-two .bottom {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     margin-bottom: 25px;
-    justify-content: space-between;
+    gap: 45px;
 }
 
 .section-two img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 3px;
+    border-radius: 5%;
 }
 
 .image-one, .image-two, .image-three, .image-four {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 130px;
+    width: 150px;
+    text-align-last: center;
 }
