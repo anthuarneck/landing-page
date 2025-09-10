@@ -169,3 +169,10 @@ button {
 .call-to-action {
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
